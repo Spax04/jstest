@@ -1,3 +1,4 @@
+'use strict';
 const arr = [1,4,6,8,9];
 arr.pop();  //<-- classic pop and push methods
 arr.push(2);
@@ -26,6 +27,10 @@ console.log(stringExArr);
 const newString = stringExArr.join("---");
 console.log(newString);
 
+// slice - обрезает arrey
+const arrSLice = ['a','b','c','d','e','f'];
+const newArrSlice = arrSLice.slice(0,-1); //<-- 1 index - from | 2 index - until  (-1 means one less from the end)
+
 //SORTING
 const arrTest1 = [8,3,1,7,9];
 arrTest1.sort(compareNumbers);
@@ -34,3 +39,4 @@ function compareNumbers(a,b){
     return a-b;
 }
 console.log(arrTest1);
+

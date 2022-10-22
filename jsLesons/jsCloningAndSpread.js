@@ -1,6 +1,6 @@
 // CLONING
 // objects
-
+'use strict';
 const first = {
     a:5,
     b:6

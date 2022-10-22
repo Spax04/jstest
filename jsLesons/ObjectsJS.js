@@ -1,3 +1,4 @@
+'use strict';
 const object = {
     name: "test",
     width : 1920,
